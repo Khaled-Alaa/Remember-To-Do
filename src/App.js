@@ -1,9 +1,12 @@
-import './App.css';
-import Intro from './components/intro';
+import Intro from "./components/intro";
+// import Calender from "./components/calender";
+import "./App.css";
+
 function App() {
   return (
     <div className="App">
-      <Intro/>
+      <Intro />
+      {/* <Calender /> */}
     </div>
   );
 }
